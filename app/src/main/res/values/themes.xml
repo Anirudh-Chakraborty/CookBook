@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.CookBook" parent="Base.Theme.CookBook" />
+
+    <style name="Theme.CookBook.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
 </resources>
